@@ -1,5 +1,7 @@
 # sunlogin_for_debian
- Modify the installation source code of Sunlogin for Debian. 对向日葵的安装源码进行修改，使之能够在Debian上进行安装。
+Modify the installation source code of Sunlogin for Debian. 
+ 
+对向日葵的安装源码进行修改，使之能够在Debian上进行安装。
 
 # 说明：
 **因为之前服务器上安装了 PVE (Proxmox VE)，之前是用 Proxmox VE 进行服务器资源管理的。出于某些原因，现在不再通过 PVE构建的虚拟机来使用计算资源，而是通过 PVE 自带的 Debian 系统直接使用虚拟机资源（因为积累的数据量比较多，重新装系统不太现实，而且部分虚拟机也在用，所以目前的形式就是：一方面通过虚拟机使用计算资源，另一方面直接通过 Debian 使用计算资源）。**
@@ -91,6 +93,7 @@ sudo passwd wangwu
 
 # 参考：
 **[1]. https://forums.debiancn.org/t/topic/2801**
+
 **[2]. https://sunlogin.oray.com/download/linux?type=personal**
 
 
