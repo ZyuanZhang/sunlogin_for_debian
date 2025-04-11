@@ -108,7 +108,10 @@ sudo passwd wangwu
 修改`/ect/passwd`，将新用户对应行的 `xxx:/bin/sh`换成`xxx:/bin/bash`
 
 **（ps. 新建用户没有 sudo 权限）**
+## 4.4 赋予 sudo 权限：
+将用户加入到 sudo 组即可：`sudo usermod -aG sudo 用户名`（前提是切换到有 sudo 权限的用户在执行此操作）。
 
+验证：运行`sudo whoami` 返回 `root` 即可；也可以通过 `groups 用户名`，输出包含 `sudo` 即可。
 
 # 参考：
 [1]. https://forums.debiancn.org/t/topic/2801
