@@ -113,7 +113,7 @@ sudo passwd wangwu
 
 验证：运行`sudo whoami` 返回 `root` 即可；也可以通过 `groups 用户名`，输出包含 `sudo` 即可。
 
-**去掉 sudo 权限：运行 `sudo deluser 用户名 sudo` 即可。**
+**去掉 sudo 权限：**运行 `sudo deluser 用户名 sudo` 即可。
 
 # 参考：
 [1]. https://forums.debiancn.org/t/topic/2801
